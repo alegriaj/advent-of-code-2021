@@ -10,5 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.4.3"
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "destop.ini"
+    ]
   }
 }

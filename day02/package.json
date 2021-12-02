@@ -1,0 +1,15 @@
+{
+  "name": "day02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aoc2021_day2.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node aoc2021_day2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.3"
+  }
+}

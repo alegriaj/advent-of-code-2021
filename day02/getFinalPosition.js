@@ -1,8 +1,10 @@
 // input - array of string commands
-//      forward 1 = increase horizontal position by 1
-//      down 2 = increase depth by 2
-//      up 3 = decrease depth by 3
-// return - position tuple as (horizontal, vertical) position
+//      forward x = increase horizontal position by x
+//      down x = increase depth by x
+//      up x = decrease depth by x
+// return - final position as a tuple [horizontal, vertical]
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 const getFinalPosition = (commands) => {
   const position = { horizontal: 0, vertical: 0 };
   for (let i = 0; i < commands.length; i++) {

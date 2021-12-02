@@ -1,7 +1,10 @@
-function sumPreviousThree(arr, i) {
-  return arr[i] + arr[i - 1] + arr[i - 2];
-}
-
+// input - array of positive numeric depths
+// return - numeric count
+//    How many times a successive depth sliding window sum
+//    was deeper than the sliding window sum
+//    Sliding window set to be 3 elements
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 function countIncSlidingWindow(depths) {
   // ensure input is valid
   if (depths.length < 4) {
@@ -22,6 +25,10 @@ function countIncSlidingWindow(depths) {
   }
 
   return deeperCount;
+}
+
+function sumPreviousThree(arr, i) {
+  return arr[i] + arr[i - 1] + arr[i - 2];
 }
 
 module.exports = {

@@ -1,5 +1,8 @@
-// input:   array of at least 2 positive numbers
-// output:  count of times depth increases over previous entry
+// input - array of positive numeric depths
+// return - numeric count
+//    how many times a successive depth is deeper than previous depth
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 function countDepthIncreases(depths) {
   // ensure input is valid
   if (depths.length < 2) {

@@ -4,6 +4,7 @@
   "description": "",
   "main": "aoc2021_day1.js",
   "scripts": {
+    "coverage": "jest --coverage",
     "test": "jest --coverage"
   },
   "author": "",

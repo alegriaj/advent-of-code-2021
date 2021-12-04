@@ -1,4 +1,4 @@
-const { getWinningScore } = require('./bingo');
+const { getWinningScore } = require('./bingoWinner');
 
 test('sample data => 4512', () => {
   expect(getWinningScore('./sample_data.txt')).toBe(4512);

@@ -19,7 +19,7 @@ const { calcGammaEpsilon } = require('./calcGammaEpsilon');
 //      and keep only numbers with that bit in that position.
 //    If 0 and 1 are equally common,
 //      keep values with a 0 in the position being considered.
-// Time Complexity: O(2^n)
+// Time Complexity: O(nlog(n))
 // Space Complexity: O(n)
 function calcRecurse(diagnostics, commonality, bit = 0) {
   const bitToMatch = diagnostics.reduce(

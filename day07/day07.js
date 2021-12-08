@@ -1,5 +1,5 @@
 // Advent Of Code 2021
-// Day 6 - The Treachery of Whales
+// Day 7 - The Treachery of Whales
 
 const { getArrayStringsFromFile } = require('./fileIO');
 const { calcLeastFuelUsage } = require('./calcLeastFuelUsage');

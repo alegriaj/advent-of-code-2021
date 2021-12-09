@@ -1,5 +1,5 @@
 // Advent Of Code 2021
-// Day 8 - The Treachery of Whales
+// Day 8 - Seven Segment Search
 
 const { getArrayStringsFromFile } = require('./fileIO');
 const { decode1478 } = require('./decode1478');

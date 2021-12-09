@@ -1,0 +1,14 @@
+{
+  "name": "day08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day08.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.3"
+  }
+}

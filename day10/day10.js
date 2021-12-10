@@ -3,11 +3,12 @@
 
 const { getArrayStringsFromFile } = require('./fileIO');
 const { getSyntaxScore } = require('./getSyntaxScore');
+const { completionMiddleScore } = require('./completionMiddleScore');
 
 // Import AoC Input
 const filename = './input.txt';
-const navSubsystemR = getArrayStringsFromFile(filename).map((x) => x.split(''));
-const navSubsystem = [
+const navSubsystem = getArrayStringsFromFile(filename).map((x) => x.split(''));
+const navSubsystemd = [
   '[({(<(())[]>[[{[]{<()<>>',
   '[(()[<>])]({[<{<<[]>>(',
   '{([(<{}[<>[]}>{[]{[(<()>',
@@ -20,4 +21,4 @@ const navSubsystem = [
   '<{([{{}}[<[[[<>{}]]]>[]]',
 ].map((x) => x.split(''));
 
-console.log(getSyntaxScore(navSubsystem));
+console.log(completionMiddleScore(navSubsystem));

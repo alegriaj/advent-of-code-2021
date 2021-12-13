@@ -1,0 +1,14 @@
+{
+  "name": "day12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day12.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.4"
+  }
+}

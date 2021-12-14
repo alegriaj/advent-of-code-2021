@@ -1,0 +1,15 @@
+{
+  "name": "day13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day13.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.5"
+  }
+}
